@@ -1,28 +1,19 @@
-Beomote
+Beomote TX RX
 =======
 
-Bang &amp; Olufsen Remote Library for Arduino
+Bang &amp; Olufsen Master Control Link Library for Arduino
 
-This library decodes the infrared signal from a Bang &amp; Olufsen remote using a plasma protected Bang &amp; Olufsen infrared eye.
-
+This library recives and sends Master Control Link or datalink messages
 Supported devices
 =======
 
-The following remotes have been tested and works with the library:
+The following devices have been tested and works with the library:
 
-- Bang &amp; Olufsen Beo4
-- Bang &amp; Olufsen Beolink 1000
-
+Beocenter 8500 and MCL2A 
+the examples are made for moteino Moteino with LoRa transcivers RFM95 or arduino Nano
 
 Connection
 =======
 
-The library uses Timer1 meaning that the infrared data cable must be connected to either pin 3 or 10.
+The library uses Timer1 meaning that the datalink data cable must be connected to either pin 3 or 10. (3 on Moteino)
 
-Connector layout of the Bang &amp; Olufsen infrared eye:
-
-1. Serial clock - SCL
-2. Serial data - SDA
-3. IR receive
-4. 5V
-5. Ground
