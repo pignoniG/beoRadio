@@ -1,0 +1,12 @@
+switch (volumeFine) {
+  case 0:
+    char VolumeFineC[] = "00001";
+  case 1:
+    char VolumeFineC[] = "00010";
+  case 2:
+    char VolumeFineC[] = "00100";
+  case 3:
+    char VolumeFineC[] = "01000";
+  case 4:
+    char VolumeFineC[] = "10000";
+}
