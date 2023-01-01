@@ -1,0 +1,1 @@
+Example code, in this case a arduino nano is connected to the aux port of a Beomaster 8500, it reads the aux-1  to aux-5 commands normally used to control a tv conencted to the beomaster to insrtead control a relay board and add 4 extra inputs to the beomaster.
